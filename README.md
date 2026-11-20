@@ -75,6 +75,21 @@ http://localhost:8000
 Para trocar a porta: `PORT=9000 python backend/server.py` (Windows PowerShell: `$env:PORT=9000; python backend/server.py`).
 Para recriar os dados de demonstração, apague o arquivo `database/agendafacil.db` e inicie o servidor novamente.
 
+### Execução alternativa no Windows (sem Git)
+
+Caso não tenha o Git instalado, é possível executar o projeto seguindo os passos abaixo:
+
+1. No GitHub, clique em **Code > Download ZIP**.
+2. Extraia o arquivo ZIP em uma pasta do computador.
+3. Abra a pasta extraída do projeto.
+4. Na barra de endereço do Explorador de Arquivos, digite `cmd` e pressione Enter.
+5. Execute o comando `python backend/server.py`.
+6. Acesse `http://localhost:8000` pelo navegador.
+
+Mantenha o terminal aberto durante a utilização do sistema.
+
+Procedimento testado no Windows com Python 3.14.10, incluindo o acesso aos perfis de cliente e profissional.
+
 ### Contas de demonstração (senha `123456`)
 
 | Perfil | E-mail |

@@ -62,7 +62,7 @@ AgendaFacil/
 
 ```bash
 # 1. Clonar o repositório
-git clone https://github.com/<usuario>/AgendaFacil.git
+git clone https://github.com/amerbhamad/AgendaFacil.git
 cd AgendaFacil
 
 # 2. Subir o servidor (cria o banco e carrega os dados de demonstração na 1ª execução)

@@ -147,3 +147,4 @@ Para verificar o funcionamento das principais funcionalidades do AgendaFácil:
 - [ ] Confirmar que horários ocupados não ficam disponíveis para novos agendamentos.
 - [ ] Verificar se o profissional consegue visualizar os agendamentos recebidos.
 - [ ] Testar o cancelamento de agendamentos.
+- [ ] - [ ] Verificar se o sistema funciona corretamente em computadores e dispositivos móveis.

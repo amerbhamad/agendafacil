@@ -136,3 +136,14 @@ Senhas armazenadas com PBKDF2-SHA256 + salt; consultas SQL parametrizadas; escap
 ## 🚧 Escopo da PoC e próximos passos
 **Fora da PoC (planejado):** tela de configuração de dias/horários do profissional (já existe no banco, com padrão seg–sáb),
 confirmação por e-mail/WhatsApp, painel do administrador, suporte a estabelecimentos com vários profissionais, HTTPS e deploy em nuvem.
+
+### ✅ Checklist de validação da PoC
+
+Para verificar o funcionamento das principais funcionalidades do AgendaFácil:
+
+- [ ] Confirmar que o cliente consegue realizar login.
+- [ ] Verificar a listagem dos profissionais disponíveis.
+- [ ] Testar a seleção de serviços e horários.
+- [ ] Confirmar que horários ocupados não ficam disponíveis para novos agendamentos.
+- [ ] Verificar se o profissional consegue visualizar os agendamentos recebidos.
+- [ ] Testar o cancelamento de agendamentos.
